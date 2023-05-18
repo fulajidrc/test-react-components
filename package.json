@@ -1,7 +1,7 @@
 {
   "name": "react-tailwind2",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "description": "Two test React components",
   "author":"Fv Thakor",
   "keywords": ["react", "components", "ui"],

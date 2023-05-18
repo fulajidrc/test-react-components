@@ -1,13 +1,13 @@
 import React from 'react';
 export interface ButtonInterface{
     kind:string,
-    id:string,
-    name:string,
-    value:string,
-    disabled:boolean,
+    id?:string,
+    name?:string,
+    value?:string,
+    disabled?:boolean,
     handleClick: React.MouseEventHandler<HTMLButtonElement>,
     label:string,
-    type:"button" | "submit" | "reset",
+    type?:"button" | "submit" | "reset",
 }
 const Button = (props:ButtonInterface) => {
    return (
